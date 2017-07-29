@@ -1,2 +1,1 @@
-web: react-scripts start
-server: nodemon server --exec babel-node --ignore ./src --ignore ./public
+web: nodemon server --exec babel-node --ignore ./src --ignore ./public

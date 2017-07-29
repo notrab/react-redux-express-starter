@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "dev": "heroku local -f Procfile.local",
+    "start:server": "heroku local -f Procfile.local",
     "prebuild": "babel server -d lib",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
