@@ -11,7 +11,7 @@ npm install
 
 ```
 npm run dev
-``
+```
 
 ## Production
 This starter kit has been designed to work with Heroku, so on deploy, everything will work accordingly.
