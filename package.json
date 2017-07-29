@@ -13,7 +13,15 @@
     "precommit": "lint-staged"
   },
   "repository": "notrab/react-redux-express-starter",
-  "keywords": ["express", "react", "create-react-app", "redux", "redux-thunk"],
+  "keywords": [
+    "javascript",
+    "babel",
+    "node",
+    "express",
+    "react",
+    "es2015",
+    "redux"
+  ],
   "author": "Jamie Barton <hi_jamie@me.com> (http://twitter.com/notrab)",
   "license": "MIT",
   "bugs": {
@@ -28,7 +36,10 @@
     "morgan": "^1.8.2",
     "prettier": "^1.5.3",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -40,6 +51,10 @@
   "lint-staged": {
     "*.js": [
       "prettier --single-quote --tab-width 2 --jsx-bracket-same-line --print-width 80 --write",
+      "git add"
+    ],
+    "*.css": [
+      "prettier --tab-width 2 --write",
       "git add"
     ]
   }

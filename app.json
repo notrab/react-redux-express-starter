@@ -8,10 +8,17 @@
     "babel",
     "node",
     "express",
-    "graphql",
-    "ecommerce"
+    "react",
+    "es2015",
+    "redux"
   ],
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack.git"
+    }
+  ],
+  "success_url": "/"
 }
