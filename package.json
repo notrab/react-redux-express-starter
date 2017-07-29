@@ -49,13 +49,8 @@
   },
   "proxy": "http://localhost:5100",
   "lint-staged": {
-    "*.js": [
-      "prettier --single-quote --tab-width 2 --jsx-bracket-same-line --print-width 80 --write",
-      "git add"
-    ],
-    "*.css": [
-      "prettier --tab-width 2 --write",
-      "git add"
-    ]
+    "*.js": ["prettier --single-quote --write", "git add"],
+    "*.json": ["prettier --write", "git add"],
+    "*.css": ["prettier --write", "git add"]
   }
 }
