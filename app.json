@@ -1,0 +1,17 @@
+{
+  "name": "react-redux-express-starter",
+  "description": "Starter kit for those who wish to use Create React App + Redux + Express.",
+  "repository": "https://github.com/notrab/react-redux-express-starter",
+  "website": "https://github.com/notrab/react-redux-express-starter",
+  "keywords": [
+    "javascript",
+    "babel",
+    "node",
+    "express",
+    "graphql",
+    "ecommerce"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
